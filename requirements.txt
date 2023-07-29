@@ -1,0 +1,17 @@
+The package requirements for this Python program are as follows:
+
+- requests: This package is needed to send HTTP requests to websites in order to scrape their content.
+- nltk: This package is used for natural language processing and provides functions for tokenizing, part-of-speech tagging, and named entity extraction.
+- beautifulsoup4: This package is used to parse HTML and XML documents, and it is needed to extract specific data from web pages.
+- transformers: This package is used for natural language processing tasks, and it provides pre-trained models for tasks like text summarization.
+
+You can add these package requirements to a requirements.txt file with the following contents:
+
+```
+requests
+nltk
+beautifulsoup4
+transformers
+```
+
+To install these packages, you can use the command `pip install -r requirements.txt`.
